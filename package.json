@@ -1,0 +1,27 @@
+{
+  "name": "test12qa",
+  "version": "1.0.0",
+  "description": "QA test",
+  "main": "src/game.ts",
+  "scripts": {
+    "test": "jest",
+    "init": "tsc --init",
+    "start": "nodemon -w ."
+  },
+  "author": "laura",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.5.0",
+    "nodemon": "^2.0.21",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
